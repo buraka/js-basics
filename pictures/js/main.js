@@ -13,7 +13,6 @@ const fotoClick = (event) => {
 
   const fotoId = event.target.attributes['data-img'].value;
   const foto = document.getElementById(fotoId);
-  debugger;
   if (foto.className === 'hide') {
     foto.className = '';
   } else {
