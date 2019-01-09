@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 70;
+}
+
+.box {
+  margin-top: 30px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
